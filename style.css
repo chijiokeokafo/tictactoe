@@ -1,0 +1,14 @@
+td {
+	text-align: center;
+	font-weight: bold;
+	background-color: green;
+	font-size: 60px; 
+}
+
+table {
+	margin: auto;
+	cursor: crosshair;
+  background-color: red;
+ 	height: 400px;
+ 	width: 400px;
+}
