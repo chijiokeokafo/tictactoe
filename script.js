@@ -12,10 +12,13 @@ $(document).ready(function(){
 		tile.off('click')
 
 		if (winner("X")) {
-		  $('#win span').text("X wins, sorry O!");
+		  $('#win span').text("X wins, sorry O! Rematch?");
 		} else if (winner("O")) {
-		  $('#win span').text("O wins, sorry X!");
+		  $('#win span').text("O wins, sorry X! Rematch");
 		}
+	});
+	$('#win span').click(function(){
+			location.reload();
 	});
 });
 
