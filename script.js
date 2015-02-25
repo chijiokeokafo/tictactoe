@@ -12,9 +12,9 @@ $(document).ready(function(){
 		tile.off('click')
 
 		if (winner("X")) {
-		  alert("X wins!")
+		  $('#win span').text("X wins, sorry O!");
 		} else if (winner("O")) {
-		  alert("O wins!")
+		  $('#win span').text("O wins, sorry X!");
 		}
 	});
 });
